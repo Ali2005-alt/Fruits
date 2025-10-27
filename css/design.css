@@ -42,6 +42,7 @@
     border-radius: 20px;
 }
 
+
 .banner-img{
     width: 90vw;
     height: 100vh;
@@ -177,29 +178,61 @@ text-align: center;
 
 
 }
-.sersh{
-    text-align: center;
-    margin: 25px 0;
-    font-weight: 400;
-    color: rgb(3, 53, 3);
 
-    
+    .login-page{
+    display: flex;
+    margin-top: 30px;
 }
+
+
+.first-child{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 50vw;
+}
+
+.first-child form{
+margin-left: 18vw;
+}
+
+.first-child input{
+    padding: 8px;
+    width: 250px;;
+     border-radius: 20px;
+    border: none;
+  
+     color: aqua;
+    background-color: rgba(45, 56, 34, 0.397);
+   margin: 15px 0;
+    border: none;
+}
+
+.second-child{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 70vh;
+}
+
 .login-heading{
     margin-left: 18vw;
-    font-weight: 300;
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .login-btn{
     padding: 8px;
-    width: 90px;
-    background-color: orange;
-    border: none;
-    border-radius: 25px;
     margin-top: 10px;
-    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    color: aqua;
+    background-color: rgb(23, 44, 2);
 }
 
 .signup-para{
