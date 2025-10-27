@@ -162,6 +162,7 @@ text-align: center;
     padding: 8px;
     border: none;
     width: 100px;
+     justify-content: center;
     border-radius: 20px;
     margin: 15px 0;
     cursor: pointer;
