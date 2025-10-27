@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Roboto", sans-serif;
+}
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    margin: 0 20px;
+}
+
+.logo{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+.list-items{
+    margin-top: 26px;
+    display: flex;
+    
+}
+
+.list-items li{
+    list-style: none;
+    padding: 0 15px;
+    font-size: 12px;
+}
+
+.login{
+    padding: 7px;
+    width: 80px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(9, 255, 0);
+    color: white;
+    border-radius: 20px;
+}
+
+.banner-img{
+    width: 90vw;
+    height: 100vh;
+}
+.products{
+    margin: 20px 25px;
+    display: flex;
+}
+
+.products-heading{
+    text-align: center;
+    margin: 25px 0;
+    font-weight: 400;
+    color: forestgreen;
+}
+.products img{
+    width: 180px;
+    height: 160px;
+    border-radius: 20px;
+    margin-left: 8px;
+    
+}
+
+.product-heading1{
+
+text-align: center;
+
+}
+.products h1{
+    
+    font-size: 26px;
+    font-weight: 300;
+    margin: 10px 8px;
+    color: rgb(73, 226, 43);
+
+}
+
+.products p{
+    font-size: 15px;
+    font-weight: 200px;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 58, 28);
+    color: white;
+    padding: 20px;
+}
+
+.footer-items li{
+    list-style: none;
+    font-size: 12px;
+    margin: 10px 0;
+    color: aqua;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-around;
+}
+.about-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.about-me{
+    width: 40vw;
+}
+
+.about-me h1{
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.about-me p{
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.about-heading{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contact-heading{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.contact-form{
+    width: 300px;
+    margin: 20px auto;
+}
+
+.contact-form input{
+    padding: 8px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 15px 0;
+    border: none;
+   color: aqua;
+    background-color: rgba(45, 56, 34, 0.397);
+}
+
+.contact-page-btn{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    
+}
+
+.contact-btn{
+    padding: 8px;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    color: aqua;
+    background-color: rgb(23, 44, 2);
+}
+
+.links{
+
+    text-align: center;
+    margin: 25px 0;
+    font-weight: 400;
+    color: rgb(3, 53, 3);
+
+
+}
+.sersh{
+    text-align: center;
+    margin: 25px 0;
+    font-weight: 400;
+    color: rgb(3, 53, 3);
+
+    
+}
+.login-heading{
+    margin-left: 18vw;
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.login-btn{
+    padding: 8px;
+    width: 90px;
+    background-color: orange;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+}
+
+.signup-para{
+    font-weight: 200;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
